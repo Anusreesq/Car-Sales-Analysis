@@ -18,10 +18,13 @@ he objective of this project is to design and develop a dynamic and interactive 
 - Step 6 : In the report view, a Calender table created.
 - Step 7 : A new one to many relationship made between car data table and calender table in model view. 
 - Step 8 : Visual filters (Slicers) were added for four fields named "Body_Style", "Dealer_Region", "Transmission" & "Engine".
-- Step 9 : Card visuals were added to the canvas according to the KPI requirements
+- Step 9 : Card visuals were added to the canvas according to the KPI requirements.
+   Snap of the Card Visuals,
+      
+![KPI](https://github.com/user-attachments/assets/d0db04ca-f198-49bc-8f97-518aba7bd70c)
            
-           Although, by default, while calculating average, blank values are ignored.
-- Step 10 : A bar chart was also added to the report design area representing the number of satisfied & neutral/unsatisfied customers. While creating this visual, field named "Gender" was also added to the Legends bucket, thus number of customers are also seggregated according the gender. 
+- Step 10 : A line chart Added to understnd the weekly trend of YTD sales.
+  
 - Step 11 : Ratings Visual was used to represent different ratings mentioned below,
 
   (a) Baggage Handling
