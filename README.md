@@ -66,6 +66,7 @@ Cars Sold Metrics:
 - Step 15 : Created a new details page to create a detailed grid that presents all relevant information for each car sale, including car model, body style, colour, sales amount, dealer region and date.
 
 # Snapshot of Report Overview (Power BI desktop)
+![Overview](https://github.com/user-attachments/assets/8ba9c1cf-671a-4639-801f-443a318decc3)
 
 
 # Snapshot of Report Details (Power BI desktop)
