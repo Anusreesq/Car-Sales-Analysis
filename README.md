@@ -70,6 +70,7 @@ Cars Sold Metrics:
 
 
 # Snapshot of Report Details (Power BI desktop)
+![Details](https://github.com/user-attachments/assets/78ad9c40-b0f8-4559-9a9a-25c16070d8d5)
  
  # Dashboard Snapshot (Power BI Service)
 
