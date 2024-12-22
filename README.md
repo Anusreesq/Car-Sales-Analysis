@@ -1,32 +1,30 @@
 # Car-Sales-Analysis
 
-### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
-
 ## Objective
 
-he objective of this project is to design and develop a dynamic and interactive Car Sales Dashboard using Power BI. The dashboard will visualize critical KPIs related to our car sales, helping us understand our sales performance over time and make data-driven decisions.
+The objective of this project is to design and develop a dynamic and interactive Car Sales Dashboard using Power BI. The dashboard will visualize critical KPIs related to car sales, helping us understand sales performance over time and make data-driven decisions.
 
 ## Problem statement
--- KPI REQUIREMENTS
+### KPI REQUIREMENTS
   
-Sales Overview:
-- Year-to-Date (YTD) Total Sales
-- Month-to-Date (MTD) Total Sales
-- Year-over-Year (YOY) Growth in Total Sales
-- Difference between YTD Sales and Previous Year-to-Date (PTYD) Sales
-Average Price Analysis:
-- YTD Average Price
-- MTD Average Price
-- YOY Growth in Average Price
-- Difference between YTD Average Price and PTYD Average Price
-Cars Sold Metrics:
-- YTD Cars Sold
-- MTD Cars Sold
-- YOY Growth in Cars Sold
-- Difference between YTD Cars Sold and PTYD Cars Sold
+#### Sales Overview:
+   - Year-to-Date (YTD) Total Sales
+   - Month-to-Date (MTD) Total Sales
+   - Year-over-Year (YOY) Growth in Total Sales
+   - Difference between YTD Sales and Previous Year-to-Date (PTYD) Sales
+#### Average Price Analysis:
+   - YTD Average Price
+   - MTD Average Price
+   - YOY Growth in Average Price
+   - Difference between YTD Average Price and PTYD Average Price
+#### Cars Sold Metrics:
+   - YTD Cars Sold
+   - MTD Cars Sold
+   - YOY Growth in Cars Sold
+   - Difference between YTD Cars Sold and PTYD Cars Sold
 
   
--- CHARTS REQUIREMENT
+## CHARTS REQUIREMENT
 
 - YTD Sales Weekly Trend.
 - YTD Total Sales by Body Style.
@@ -38,7 +36,7 @@ Cars Sold Metrics:
 
 
 
-### Steps followed 
+## Steps followed 
 
 - Step 1 : Load data into Power BI Desktop, dataset is a excel file.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
@@ -53,7 +51,7 @@ Cars Sold Metrics:
       
 ![KPI](https://github.com/user-attachments/assets/d0db04ca-f198-49bc-8f97-518aba7bd70c)
            
-- Step 10 : A area chart Added to understnd the weekly trend of YTD sales.
+- Step 10 : An area chart added to understnd the weekly trend of YTD sales.
   
 - Step 11 : A Donut chart used to display YTD total sales across different car body styles.
 
@@ -73,6 +71,9 @@ Cars Sold Metrics:
 ![Details](https://github.com/user-attachments/assets/78ad9c40-b0f8-4559-9a9a-25c16070d8d5)
  
  # Dashboard Snapshot (Power BI Service)
+ 
+![Dashboard 1](https://github.com/user-attachments/assets/77db31ec-fa6e-4b16-bf5d-e5bf9260e4b9)
+![Dashboard 2](https://github.com/user-attachments/assets/caea4dab-4805-49dd-a00e-564a500b0cd8)
 
  
 
@@ -82,10 +83,3 @@ Cars Sold Metrics:
 A dual page report was created on Power BI Desktop & it was then published to Power BI Service.
 
 
-
-4.2) 30.94 % customers have travel type 'Personal'.
-
-        thus, more customers have travel type 'Business'.
-# Airlines-Dashboard.md.txt
-
-Displaying # Airlines-Dashboard.md.txt.
