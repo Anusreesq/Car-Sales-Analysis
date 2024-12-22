@@ -49,8 +49,8 @@ The objective of this project is to design and develop a dynamic and interactive
 - Step 9 : Card visuals were added to the canvas according to the KPI requirements.
    Snap of the Card Visuals,
       
-![KPI](https://github.com/user-attachments/assets/d0db04ca-f198-49bc-8f97-518aba7bd70c)
-           
+![KPI](https://github.com/user-attachments/assets/deb6f146-c8fe-4996-8efb-f0d52a7a88a1)
+
 - Step 10 : An area chart added to understnd the weekly trend of YTD sales.
   
 - Step 11 : A Donut chart used to display YTD total sales across different car body styles.
@@ -64,16 +64,19 @@ The objective of this project is to design and develop a dynamic and interactive
 - Step 15 : Created a new details page to create a detailed grid that presents all relevant information for each car sale, including car model, body style, colour, sales amount, dealer region and date.
 
 # Snapshot of Report Overview (Power BI desktop)
-![Overview](https://github.com/user-attachments/assets/8ba9c1cf-671a-4639-801f-443a318decc3)
+![Overview](https://github.com/user-attachments/assets/6a5e3ae0-8f71-456b-bd9b-5971b8d8c564)
+
+           
 
 
 # Snapshot of Report Details (Power BI desktop)
-![Details](https://github.com/user-attachments/assets/78ad9c40-b0f8-4559-9a9a-25c16070d8d5)
+![Details](https://github.com/user-attachments/assets/2f04af50-ee22-46e8-8f57-7e281bdac9a7)
+
  
  # Dashboard Snapshot (Power BI Service)
  
-![Dashboard 1](https://github.com/user-attachments/assets/77db31ec-fa6e-4b16-bf5d-e5bf9260e4b9)
-![Dashboard 2](https://github.com/user-attachments/assets/caea4dab-4805-49dd-a00e-564a500b0cd8)
+![Dashboard 1](https://github.com/user-attachments/assets/cab0f094-fa4d-4fda-8792-9c81cea887c8)
+![Dashboard 2](https://github.com/user-attachments/assets/24c4be56-f21b-41b8-a830-b83893d0e982)
 
  
 
