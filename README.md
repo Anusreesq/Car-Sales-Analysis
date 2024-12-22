@@ -2,9 +2,39 @@
 
 ### Dashboard Link : https://app.powerbi.com/groups/me/reports/384d017e-e935-44dc-9e7d-1626c1a36de1/ReportSection
 
-## Problem Statement
+## Objective
 
 he objective of this project is to design and develop a dynamic and interactive Car Sales Dashboard using Power BI. The dashboard will visualize critical KPIs related to our car sales, helping us understand our sales performance over time and make data-driven decisions.
+
+## Problem statement
+-- KPI REQUIREMENTS
+  
+Sales Overview:
+- Year-to-Date (YTD) Total Sales
+- Month-to-Date (MTD) Total Sales
+- Year-over-Year (YOY) Growth in Total Sales
+- Difference between YTD Sales and Previous Year-to-Date (PTYD) Sales
+Average Price Analysis:
+- YTD Average Price
+- MTD Average Price
+- YOY Growth in Average Price
+- Difference between YTD Average Price and PTYD Average Price
+Cars Sold Metrics:
+- YTD Cars Sold
+- MTD Cars Sold
+- YOY Growth in Cars Sold
+- Difference between YTD Cars Sold and PTYD Cars Sold
+
+  
+-- CHARTS REQUIREMENT
+
+- YTD Sales Weekly Trend.
+- YTD Total Sales by Body Style.
+- YTD Total Sales by Color.
+- YTD Cars Sold by Dealer Region.
+- Company-Wise Sales Trend in Grid Form.
+- Details Grid Showing All Car Sales Information.
+
 
 
 
@@ -23,62 +53,18 @@ he objective of this project is to design and develop a dynamic and interactive 
       
 ![KPI](https://github.com/user-attachments/assets/d0db04ca-f198-49bc-8f97-518aba7bd70c)
            
-- Step 10 : A line chart Added to understnd the weekly trend of YTD sales.
+- Step 10 : A area chart Added to understnd the weekly trend of YTD sales.
   
-- Step 11 : Ratings Visual was used to represent different ratings mentioned below,
+- Step 11 : A Donut chart used to display YTD total sales across different car body styles.
 
-  (a) Baggage Handling
-
-  (b) Check-in Services
+- Step 12 : A Donut chart used to display the contribution of various car colors to the YTD total sales.
   
-  (c) Cleanliness
+- Step 13 : A map chart added to visualize the sales distribution geographically by showcasing the YTD sales data based on different dealer regions.
   
-  (d) Ease of online booking
-  
-  (e) Food & Drink
-  
-  (f) In-flight Entertainment
-
-  (g) In-flight Service
-  
-  (h) In-flight wifi service
-  
-  (i) Leg Room service
-  
-  (j) On-board service
-  
-  (k) Online boarding
-  
-  (l) Seat comfort
-  
-  (m) Departure & arrival time convenience
-  
-In our dataset, Some parameters were assigned value 0, representing those parameters are not applicable for some customers.
-
-All these values have been ignored while calculating average rating for each of the parameters mentioned above.
-
-- Step 12 : In the report view, under the insert tab, two text boxes were added to the canvas, in one of them name of the airlines was mentioned & in the other one company's tagline was written.
-- Step 13 : In the report view, under the insert tab, using shapes option from elements group a rectangle was inserted & similarly using image option company's logo was added to the report design area. 
-- Step 14 : Calculated column was created in which, customers were grouped into various age groups.
-
-for creating new column following DAX expression was written;
-       
-        Age Group = 
+- Step 14 :  Provided a tabular grid that displays the sales trend for each company. The grid showcases the company name along with their YTD sales figures.
         
-        if(airline_passenger_satisfaction[Age]<=25, "0-25 (25 included)",
-        
-        if(airline_passenger_satisfaction[Age]<=50, "25-50 (50 included)",
-        
-        if(airline_passenger_satisfaction[Age]<=75, "50-75 (75 included)",
-        
-        "75-100 (100 included)")))
-        
-Snap of new calculated column ,
+- Step 15 : Created a new details page to create a detailed grid that presents all relevant information for each car sale, including car model, body style, colour, sales amount, dealer region and date.
 
-![Snap_1](https://user-images.githubusercontent.com/102996550/174089602-ab834a6b-62ce-4b62-8922-a1d241ec240e.jpg)
-
-        
-- Step 15 : New measure was created to find total count of customers.
 
 Following DAX expression was written for the same,
         
